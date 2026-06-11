@@ -21,15 +21,13 @@ Linear gradients for visual appeal
 Smooth transitions and animations
 Custom responsive breakpoints
 
-
-
 📂 Project Structure
 portfolio/
 │
-├── index.html          # Main HTML file
-├── styles.css          # CSS stylesheet
-├── me.jpg             # Profile picture
-└── README.md          # Project documentation
+├── index.html # Main HTML file
+├── styles.css # CSS stylesheet
+├── me.jpg # Profile picture
+└── README.md # Project documentation
 🚀 Current Skills
 
 HTML: Building structured, semantic web pages
@@ -70,6 +68,5 @@ I'm a 16-year-old tech enthusiast passionate about cybersecurity. I believe it's
 Thanks to the open-source community for inspiration
 Formspree for providing the contact form service
 Everyone supporting my learning journey
-
 
 "The journey of a thousand miles begins with a single step" 🚀

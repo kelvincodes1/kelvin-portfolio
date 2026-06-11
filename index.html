@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
+        <title>Kelvin Kiplagat | Portfolio</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="cursor-glow" aria-hidden="true"></div>
         <header>
             <h1 class="kev">Kelvin Kiplagat</h1>
             <nav>
@@ -14,6 +15,8 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">My skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#lab">Lab</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#progress">Progress</a></li>
                 </ul>
@@ -22,8 +25,18 @@
         <section id="home">
             <div class="home">
                 <div class="hero-content">
-                    <h2 class="pic">Hi, i'm Kelvin<br>A passion tech enthusiast and learner</h2>
-                    <p>I am focused on learning Linux and SQL, with Python and JavaScript coming next. I have foundational skills in HTML and CSS and aim to expand my expertise across the web development stack.</p>
+                    <p class="eyebrow">Future cybersecurity builder</p>
+                    <h2 class="pic">Hi, I'm Kelvin.<br>I turn curiosity into code.</h2>
+                    <p>I am focused on Linux, SQL, Python, and JavaScript while building the habits and projects that will take me into cybersecurity. This portfolio is my live progress log: part website, part learning cockpit.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#lab">Launch the lab</a>
+                        <a class="btn ghost" href="https://github.com/kelvincodes1" target="_blank" rel="noreferrer">GitHub</a>
+                    </div>
+                    <div class="signal-strip" aria-label="Learning highlights">
+                        <span><strong>2025</strong> start</span>
+                        <span><strong>4+</strong> skills</span>
+                        <span><strong>Goal</strong> cyber</span>
+                    </div>
                 </div>
                 <div class="image">            
                     <img src="me.jpg" alt="My picture" class="me">
@@ -32,33 +45,101 @@
         </section>
              <section id="about">
                 <h1>About me!</h1>
-                <p>I'm a passionate tech enthusiast working toward a future in cybersecurity. I fell in love with technology the first time I saw a laptop, and that curiosity has only grown. Although I'm still building my skills, I'm committed to learning and improving every day. I've overcome personal challenges and I'm rebuilding positive habits to focus on growth. Right now I'm studying HTML, CSS, Python, and SQL to prepare for projects ahead. I'm 16 years old, and I believe it's never too late to start pursuing your goals.</p>
+                <p>I'm a passionate tech enthusiast working toward a future in cybersecurity. I fell in love with technology the first time I saw a laptop, and that curiosity has only grown. Although I'm still building my skills, I'm committed to learning and improving every day. Right now I'm studying HTML, CSS, Python, SQL, and Linux so I can build useful projects and understand how systems really work.</p>
              </section>
              <section id="skills">
                  <h1>My skills</h1>
                  <div class ="skill-header">
-                    <div class="box">
+                    <div class="box" data-skill="HTML" data-level="78">
                     <h3>HTML</h3>
                     <p>I have built several projects using HTML, including this portfolio website.</p>
                     </div>
-                    <div class="box">
+                    <div class="box" data-skill="CSS" data-level="72">
                         <h3>CSS</h3>
                         <p>I have developed solid CSS skills which I've applied to create styled layouts and responsive designs.</p>
                     </div>
-                    <div class="box">
+                    <div class="box" data-skill="PYTHON" data-level="42">
                         <h3>PYTHON</h3>
-                        <p>I have a bit of skill on python but i am still learning it.</p>
+                        <p>I know the basics of Python and I am growing through practice projects.</p>
                      </div>
-                     <div class="box">
+                     <div class="box" data-skill="LINUX" data-level="55">
                         <h3>LINUX</h3>
                         <p>I'm building proficiency with Linux through hands-on experience with Cinnamon Mint and command-line tools.</p>
                      </div>
                 </div>
              </section>
+             <section id="projects">
+                <h1>Projects</h1>
+                <p>These are real projects I have worked on, from creative web pages to database systems with forms, calculations, and user access features.</p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span class="project-status done">Done</span>
+                            <span class="project-tag">HTML + CSS</span>
+                        </div>
+                        <h3>Birthday Card Project</h3>
+                        <p>A completed digital birthday card project designed to practice layout, styling, color, and presentation through a fun personal webpage.</p>
+                        <div class="project-links">
+                            <a class="btn ghost" href="#contact">Ask about it</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span class="project-status done">Done</span>
+                            <span class="project-tag">Access + Database</span>
+                        </div>
+                        <h3>Azani ISP Database System</h3>
+                        <p>A database management system for Azani Internet Service Providers, built with Access tools to input customer data, calculate different values, output results, and support login and sign-up features.</p>
+                        <div class="project-links">
+                            <a class="btn ghost" href="#contact">Discuss project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span class="project-status live">Live</span>
+                            <span class="project-tag">HTML + CSS + JS</span>
+                        </div>
+                        <h3>Personal Portfolio</h3>
+                        <p>This website is my main project hub, built to show my learning journey, skills, contact form, project work, and interactive JavaScript effects.</p>
+                        <div class="project-links">
+                            <a class="btn ghost" href="#home">View site</a>
+                            <a class="btn ghost" href="https://github.com/kelvincodes1" target="_blank" rel="noreferrer">Source</a>
+                        </div>
+                    </article>
+                </div>
+             </section>
+             <section id="lab">
+                <h1>Command Lab</h1>
+                <div class="lab-grid">
+                    <div class="terminal-panel">
+                        <div class="terminal-bar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="terminal-screen" aria-live="polite">
+                            <p class="terminal-line">kelvin@portfolio:~$ <span id="typed-command"></span><span class="caret">_</span></p>
+                            <ul id="console-feed"></ul>
+                        </div>
+                    </div>
+                    <div class="radar-panel">
+                        <div class="radar" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h3>Current Mission</h3>
+                        <p id="mission-text">Scanning skills, strengthening fundamentals, and building toward cybersecurity.</p>
+                        <button class="btn primary" id="mission-button" type="button">Generate mission</button>
+                    </div>
+                </div>
+             </section>
              <section id="contact">
                 <h1>Get in touch:</h1>
                 <h3>My GitHub</h3>
-                <a href="https://github.com/kevvcpu">Check out my projects</a>
+                <a href="https://github.com/kelvincodes1">Check out my projects</a>
                 <h2>Email me:</h2>
                 <form 
                 action="https://formspree.io/f/xzznkpdq" 
@@ -94,7 +175,7 @@
                     </div>
 
                     <div class="timeline-item">
-                        <h4>Auggust 2025 — Linux</h4>
+                        <h4>August 2025 — Linux</h4>
                         <p>Gained command-line experience and learned to manage files and tools on Cinnamon Mint.</p>
                     </div>
 
@@ -109,5 +190,6 @@
         <footer>
             <p>&copy; 2025 Kelvin Kiplagat. All rights reserved.</p>
         </footer>   
+        <script src="script.js"></script>
         </body>
 </html>
